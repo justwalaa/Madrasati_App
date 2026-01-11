@@ -1,28 +1,16 @@
-# Madrasati App
+# madrasati_app
 
-Madrasati is a Flutter-based mobile application developed as part of a university graduation project.
+A new Flutter project.
 
-## Project Description
-The application aims to facilitate communication and academic management between teachers and students by providing essential school-related features in a mobile platform.
+## Getting Started
 
-## Core Features
-- Authentication (Student / Teacher)
-- Student Dashboard
-- Teacher Dashboard
-- Attendance Management
-- Homework Management
-- Role-based Navigation
+This project is a starting point for a Flutter application.
 
-## Technologies Used
-- Flutter
-- Dart
-- Firebase (Authentication & Firestore)
-- Material UI
+A few resources to get you started if this is your first Flutter project:
 
-## Project Status
-This repository contains the implementation of the core features of the application.  
-Additional features and enhancements will be implemented in future phases.
+- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
+- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
 
-## Developed By
-Walaa Khalil Marai  
-Computer Science – Jordan University of Science and Technology
+For help getting started with Flutter development, view the
+[online documentation](https://docs.flutter.dev/), which offers tutorials,
+samples, guidance on mobile development, and a full API reference.
