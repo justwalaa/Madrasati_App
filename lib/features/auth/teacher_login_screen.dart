@@ -56,7 +56,18 @@ class _TeacherLoginScreenState extends State<TeacherLoginScreen> {
           child: Column(
             children: [
               const SizedBox(height: 40),
+TextFormField(
+  key: const Key('emailField'),
+  controller: emailController,
+  decoration: const InputDecoration(labelText: 'Email'),
+),
 
+TextFormField(
+  key: const Key('passwordField'),
+  controller: passwordController,
+  obscureText: true,
+  decoration: const InputDecoration(labelText: 'Password'),
+),
               TextFormField(
                 controller: _emailController,
                 decoration: const InputDecoration(
@@ -90,3 +101,4 @@ class _TeacherLoginScreenState extends State<TeacherLoginScreen> {
     );
   }
 }
+
